@@ -42,9 +42,6 @@ class Solution {
             result = result * 10 + rest % 10;
             rest = rest / 10;
         }
-        if (x == result) {
-            return true;
-        }
-        return false;
+        return x == result;
     }
 }

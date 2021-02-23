@@ -29,9 +29,7 @@
 //
 //        -231 <= x <= 231 - 1
 
-package palindromeNumber;
-
-class Solution {
+class T_9_PalindromeNumber {
     public boolean isPalindrome(int x) {
         if (x < 0) {
             return false;

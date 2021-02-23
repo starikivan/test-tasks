@@ -28,12 +28,10 @@
 //        -109 <= target <= 109
 //        Only one valid answer exists.
 
-package twoSum;
-
 import java.util.HashMap;
 import java.util.Map;
 
-class Solution {
+class T_1_TwoSum {
     public int[] twoSum(int[] nums, int target) {
         Map<Integer, Integer> map = new HashMap<>();
         for (int i = 0; i < nums.length; i++) {

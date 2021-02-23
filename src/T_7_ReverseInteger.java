@@ -29,9 +29,7 @@
 //
 //        -231 <= x <= 231 - 1
 
-package reverseInteger;
-
-class Solution {
+class T_7_ReverseInteger {
     public int reverse(int x) {
         long result = 0;
         while(x != 0){

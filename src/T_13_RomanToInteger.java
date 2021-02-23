@@ -52,12 +52,10 @@
 //        s contains only the characters ('I', 'V', 'X', 'L', 'C', 'D', 'M').
 //        It is guaranteed that s is a valid roman numeral in the range [1, 3999].
 
-package romanToInteger;
-
 import java.util.HashMap;
 import java.util.Map;
 
-class Solution {
+class T_13_RomanToInteger {
     public int romanToInt(String s) {
         Map<Character, Integer> map = new HashMap();
         map.put('I', 1);

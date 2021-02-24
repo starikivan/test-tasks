@@ -36,7 +36,7 @@
 
 import java.util.Stack;
 
-public class T_20_ValidParentheses {
+public class T_0020_ValidParentheses {
     public boolean isValid(String s) {
         if (s.isEmpty()) return true;
         Stack<Character> stack = new Stack<>();

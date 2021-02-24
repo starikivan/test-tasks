@@ -18,7 +18,7 @@
 //        Input: ["H","a","n","n","a","h"]
 //        Output: ["h","a","n","n","a","H"]
 
-class T_344_ReverseString {
+class T_0344_ReverseString {
     public void reverseString(char[] s) {
         int length = s.length;
         for (int i = 0; i < length /2; i++) {

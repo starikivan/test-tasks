@@ -29,7 +29,7 @@
 //
 //        -231 <= x <= 231 - 1
 
-class T_9_PalindromeNumber {
+class T_0009_PalindromeNumber {
     public boolean isPalindrome(int x) {
         if (x < 0) {
             return false;

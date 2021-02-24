@@ -24,7 +24,7 @@
 //        0 <= strs[i].length <= 200
 //        strs[i] consists of only lower-case English letters.
 
-class T_14_LongestCommonPrefix {
+class T_0014_LongestCommonPrefix {
     public String longestCommonPrefix(String[] strs) {
         if (strs.length == 0) {
             return "";

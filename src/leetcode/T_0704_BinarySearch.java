@@ -1,4 +1,4 @@
-//704. Binary Search
+package leetcode;//704. Binary Search
 //        Easy
 //
 //        Given a sorted (in ascending order) integer array nums of n elements and a target value, write a function to search target in nums. If target exists, then return its index, otherwise return -1.

@@ -1,4 +1,4 @@
-//https://leetcode.com/problems/two-sum
+package leetcode;//https://leetcode.com/problems/two-sum
 //        1. Two Sum
 //        Easy
 //

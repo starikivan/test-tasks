@@ -27,7 +27,7 @@ package codility;
 
 import java.util.Stack;
 
-public class L7_Brackets {
+public class С_07_Brackets {
     public int solution(String S) {
         if (S.isEmpty()) return 1;
         Stack<Character> stack = new Stack<>();

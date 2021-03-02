@@ -20,7 +20,7 @@
 
 package codility;
 
-public class L10_CountFactors {
+public class С_10_CountFactors {
     public int solution(int N) {
         if (N == 1) {
             return 1;

@@ -30,7 +30,7 @@ package leetcode;//28. Implement strStr()
 //        0 <= haystack.length, needle.length <= 5 * 104
 //        haystack and needle consist of only lower-case English characters.
 
-public class T_0028_ImplementStrStr {
+public class LC_0028_ImplementStrStr {
     public int strStr(String haystack, String needle) {
         if (haystack == null || needle == null) {
             return -1;

@@ -24,7 +24,7 @@ package leetcode;//21. Merge Two Sorted Lists
 //        -100 <= Node.val <= 100
 //        Both l1 and l2 are sorted in non-decreasing order.
 
-public class T_0021_MergeTwoSortedLists {
+public class LC_0021_MergeTwoSortedLists {
     public ListNode mergeTwoLists(ListNode l1, ListNode l2) {
         ListNode head = new ListNode(0);
         ListNode current = head;

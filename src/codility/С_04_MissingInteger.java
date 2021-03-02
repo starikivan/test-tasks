@@ -24,7 +24,7 @@ package codility;
 import java.util.HashSet;
 import java.util.Set;
 
-public class L4_MissingInteger {
+public class С_04_MissingInteger {
     public int solution(int[] A) {
         Set<Integer> set = new HashSet<>();
         for (int i: A) {

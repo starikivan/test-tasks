@@ -29,7 +29,7 @@ package leetcode;//7. Reverse Integer
 //
 //        -231 <= x <= 231 - 1
 
-class T_0007_ReverseInteger {
+class LC_0007_ReverseInteger {
     public int reverse(int x) {
         long result = 0;
         while(x != 0){

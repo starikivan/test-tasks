@@ -55,7 +55,7 @@ package leetcode;//13. Roman to Integer
 import java.util.HashMap;
 import java.util.Map;
 
-class T_0013_RomanToInteger {
+class LC_0013_RomanToInteger {
     public int romanToInt(String s) {
         Map<Character, Integer> map = new HashMap();
         map.put('I', 1);

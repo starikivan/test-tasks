@@ -33,7 +33,7 @@ package leetcode;//3. Longest Substring Without Repeating Characters
 import java.util.HashMap;
 import java.util.Map;
 
-public class T_0003_LongestSubstringWithoutRepeatingCharacters {
+public class LC_0003_LongestSubstringWithoutRepeatingCharacters {
     public int lengthOfLongestSubstring(String s) {
         Map<Character, Integer> visited = new HashMap<>();
         String result = "";

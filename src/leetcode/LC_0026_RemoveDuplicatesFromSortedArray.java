@@ -39,7 +39,7 @@ package leetcode;//26. Remove Duplicates from Sorted Array
 //        -104 <= nums[i] <= 104
 //        nums is sorted in ascending order.
 
-public class T_0026_RemoveDuplicatesFromSortedArray {
+public class LC_0026_RemoveDuplicatesFromSortedArray {
     public int removeDuplicates(int[] nums) {
         if (nums.length < 2) {
             return nums.length;

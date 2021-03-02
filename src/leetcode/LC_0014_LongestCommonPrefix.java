@@ -24,7 +24,7 @@ package leetcode;//14. Longest Common Prefix
 //        0 <= strs[i].length <= 200
 //        strs[i] consists of only lower-case English letters.
 
-class T_0014_LongestCommonPrefix {
+class LC_0014_LongestCommonPrefix {
     public String longestCommonPrefix(String[] strs) {
         if (strs.length == 0) {
             return "";

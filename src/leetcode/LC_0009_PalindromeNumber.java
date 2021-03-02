@@ -29,7 +29,7 @@ package leetcode;//9. Palindrome Number
 //
 //        -231 <= x <= 231 - 1
 
-class T_0009_PalindromeNumber {
+class LC_0009_PalindromeNumber {
     public boolean isPalindrome(int x) {
         if (x < 0) {
             return false;

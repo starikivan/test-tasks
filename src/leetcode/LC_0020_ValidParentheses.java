@@ -36,7 +36,7 @@ package leetcode;//20. Valid Parentheses
 
 import java.util.Stack;
 
-public class T_0020_ValidParentheses {
+public class LC_0020_ValidParentheses {
     public boolean isValid(String s) {
         if (s.isEmpty()) return true;
         Stack<Character> stack = new Stack<>();

@@ -50,7 +50,7 @@ package codility;
 import java.util.HashSet;
 import java.util.Set;
 
-public class L4_PermCheck {
+public class С_04_PermCheck {
     public int solution(int[] A) {
         Set<Integer> set = new HashSet<>();
         int max = 0;

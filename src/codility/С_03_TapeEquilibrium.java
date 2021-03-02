@@ -43,7 +43,7 @@
 
 package codility;
 
-public class L3_TapeEquilibrium {
+public class С_03_TapeEquilibrium {
     public int solution(int[] A) {
         long sumTotal = 0;
         for (int i : A) {

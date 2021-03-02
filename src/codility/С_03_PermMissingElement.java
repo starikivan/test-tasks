@@ -27,7 +27,7 @@
 
 package codility;
 
-public class L3_PermMissingElement {
+public class С_03_PermMissingElement {
     public int solution(int[] A) {
         int arrLength = A.length + 1;
         long sumAll = (long) (arrLength + 1) * arrLength / 2;

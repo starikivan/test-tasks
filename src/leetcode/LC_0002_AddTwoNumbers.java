@@ -27,7 +27,7 @@ package leetcode;//2. Add Two Numbers
 //        0 <= Node.val <= 9
 //        It is guaranteed that the list represents a number that does not have leading zeros.
 
-public class T_0002_AddTwoNumbers {
+public class LC_0002_AddTwoNumbers {
     public ListNode addTwoNumbers(ListNode l1, ListNode l2) {
         ListNode temp = new ListNode(-1);
         ListNode current = temp;

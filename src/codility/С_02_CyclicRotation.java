@@ -40,7 +40,7 @@
 
 package codility;
 
-public class L2_CyclicRotation {
+public class С_02_CyclicRotation {
     public int[] solution(int[] A, int K) {
         if (A == null) {
             return null;

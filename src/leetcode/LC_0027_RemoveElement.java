@@ -42,7 +42,7 @@ package leetcode;//27. Remove Element
 //        0 <= nums[i] <= 50
 //        0 <= val <= 100
 
-public class T_0027_RemoveElement {
+public class LC_0027_RemoveElement {
     public int removeElement(int[] nums, int val) {
         if (nums.length == 0)
             return 0;

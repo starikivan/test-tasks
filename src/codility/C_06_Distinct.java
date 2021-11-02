@@ -22,7 +22,7 @@ package codility;
 import java.util.HashSet;
 import java.util.Set;
 
-public class С_06_Distinct {
+public class C_06_Distinct {
     public int solution(int[] A) {
         Set<Integer> set = new HashSet<>();
         for(int i: A) {

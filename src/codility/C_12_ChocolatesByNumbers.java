@@ -32,7 +32,7 @@
 
 package codility;
 
-public class С_12_ChocolatesByNumbers {
+public class C_12_ChocolatesByNumbers {
     public int solution(int N, int M) {
         return N / gcd(N, M);
     }

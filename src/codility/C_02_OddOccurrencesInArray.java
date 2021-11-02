@@ -33,7 +33,7 @@
 
 package codility;
 
-public class С_02_OddOccurrencesInArray {
+public class C_02_OddOccurrencesInArray {
     public static int solution(int[] A) {
         int result = 0;
         for (int i : A) {

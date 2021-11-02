@@ -29,7 +29,7 @@
 
 package codility;
 
-public class С_03_FrogJmp {
+public class C_03_FrogJmp {
     public int solution(int X, int Y, int D) {
         return (int) Math.ceil((Y - X) / (double) D);
     }

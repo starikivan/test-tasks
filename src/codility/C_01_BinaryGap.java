@@ -23,7 +23,7 @@ package codility;
 import java.util.ArrayList;
 import java.util.List;
 
-public class С_01_BinaryGap {
+public class C_01_BinaryGap {
     public int solution(int N) {
         String str = Integer.toBinaryString(N);
         int result = 0;

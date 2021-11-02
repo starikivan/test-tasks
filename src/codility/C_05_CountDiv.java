@@ -22,7 +22,7 @@
 
         package codility;
 
-public class С_05_CountDiv {
+public class C_05_CountDiv {
     public int solution(int A, int B, int K) {
         return (B / K ) - (A / K) + (A % K == 0 ? 1 : 0);
     }

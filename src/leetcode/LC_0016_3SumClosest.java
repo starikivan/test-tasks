@@ -2,7 +2,7 @@ package leetcode;
 
 import java.util.Arrays;
 
-public class LC_16_3SumClosest {
+public class LC_0016_3SumClosest {
     public int threeSumClosest(int[] nums, int target) {
         Arrays.sort(nums);
         int result = nums[0] + nums[1] + nums[2];

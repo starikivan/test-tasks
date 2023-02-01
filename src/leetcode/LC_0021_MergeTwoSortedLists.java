@@ -25,24 +25,24 @@ package leetcode;//21. Merge Two Sorted Lists
 //        Both l1 and l2 are sorted in non-decreasing order.
 
 public class LC_0021_MergeTwoSortedLists {
-    public ListNode mergeTwoLists(ListNode l1, ListNode l2) {
+    public ListNode mergeTwoLists(ListNode list1, ListNode list2) {
         ListNode head = new ListNode(0);
         ListNode current = head;
-        while(l1 != null && l2 != null){
-            if (l1.val < l2.val) {
-                current.next = l1;
-                l1 = l1.next;
+        while(list1 != null && list2 != null){
+            if (list1.val < list2.val) {
+                current.next = list1;
+                list1 = list1.next;
             } else {
-                current.next = l2;
-                l2 = l2.next;
+                current.next = list2;
+                list2 = list2.next;
             }
             current = current.next;
         }
-        if (l1 != null) {
-            current.next = l1;
+        if (list1 != null) {
+            current.next = list1;
         }
-        if (l2 != null) {
-            current.next = l2;
+        if (list2 != null) {
+            current.next = list2;
         }
         return head.next;
     }

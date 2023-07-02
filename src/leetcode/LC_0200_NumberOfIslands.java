@@ -38,9 +38,9 @@ grid[i][j] is '0' or '1'.
 package leetcode;
 
 public class LC_0200_NumberOfIslands {
-    char[][] grid;
-    int rows;
-    int columns;
+    private char[][] grid;
+    private int rows;
+    private int columns;
 
     public int numIslands(char[][] grid) {
         this.grid = grid;
@@ -58,22 +58,14 @@ public class LC_0200_NumberOfIslands {
         return result;
     }
 
-    void validateIsland(int i, int j) {
-        if (grid[i][j] == '0') {
+    private void validateIsland(int i, int j) {
+        if (i < 0 || i >= rows || j < 0 || j >= columns || grid[i][j] == '0') {
             return;
         }
         grid[i][j] = '0';
-        if (i > 0) {
-            validateIsland( i - 1, j);
-        }
-        if (i < rows - 1) {
-            validateIsland( i + 1, j);
-        }
-        if (j > 0) {
-            validateIsland( i, j - 1);
-        }
-        if (j < columns - 1) {
-            validateIsland( i, j + 1);
-        }
-    }
+        validateIsland( i - 1, j);
+        validateIsland( i + 1, j);
+        validateIsland( i, j - 1);
+        validateIsland( i, j + 1);
+   }
 }

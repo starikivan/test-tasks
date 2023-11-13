@@ -44,9 +44,9 @@ Constraints:
 1 <= num <= 3999
 */
 
-package leetcode.LC_0012;
+package leetcode;
 
-public class _IntegerToRoman {
+public class LC_0012_IntegerToRoman {
     public String intToRoman(int num) {
         int[] decimalValues = {1000, 900, 500, 400, 100, 90, 50, 40, 10, 9, 5, 4, 1};
         String[] romanSymbols = {"M", "CM", "D", "CD", "C", "XC", "L", "XL", "X", "IX", "V", "IV", "I"};

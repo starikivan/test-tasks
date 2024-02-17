@@ -47,7 +47,7 @@ public class LC_0021_MergeTwoSortedLists {
         return head.next;
     }
 
-    static class ListNode {
+    private static class ListNode {
         int val;
         ListNode next;
 

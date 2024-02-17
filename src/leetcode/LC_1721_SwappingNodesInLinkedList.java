@@ -42,7 +42,7 @@ public class LC_1721_SwappingNodesInLinkedList {
         return head;
     }
 
-    static class ListNode {
+    private static class ListNode {
         int val;
         ListNode next;
         ListNode() {

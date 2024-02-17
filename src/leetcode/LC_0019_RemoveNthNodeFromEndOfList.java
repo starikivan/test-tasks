@@ -43,7 +43,7 @@ public class LC_0019_RemoveNthNodeFromEndOfList {
         return temp.next;
     }
 
-    static class ListNode {
+    private static class ListNode {
         int val;
         ListNode next;
         ListNode() {

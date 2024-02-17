@@ -52,7 +52,7 @@ public class LC_0002_AddTwoNumbers {
         return temp.next;
     }
 
-    static class ListNode {
+    private static class ListNode {
         int val;
         ListNode next;
 

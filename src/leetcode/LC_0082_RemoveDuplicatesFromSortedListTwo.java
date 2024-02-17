@@ -50,21 +50,20 @@ public class LC_0082_RemoveDuplicatesFromSortedListTwo {
         }
         return temp.next;
     }
-}
+    private static class ListNode {
+        int val;
+        ListNode next;
 
-class ListNode {
-    int val;
-    ListNode next;
+        ListNode() {
 
-    ListNode() {
+        }
+        ListNode(int val) {
+            this.val = val;
+        }
 
-    }
-    ListNode(int val) {
-        this.val = val;
-    }
-
-    ListNode(int val, ListNode next) {
-        this.val = val; this.next = next;
+        ListNode(int val, ListNode next) {
+            this.val = val; this.next = next;
+        }
     }
 
 

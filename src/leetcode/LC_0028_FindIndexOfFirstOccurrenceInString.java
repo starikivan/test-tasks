@@ -24,21 +24,35 @@ haystack and needle consist of only lowercase English characters.
 package leetcode;
 
 public class LC_0028_FindIndexOfFirstOccurrenceInString {
+//    public int strStr(String haystack, String needle) {
+//        for(int i = 0; i <= haystack.length() - needle.length(); i++) {
+//            if(haystack.charAt(i) == needle.charAt(0)) {
+//                boolean found = true;
+//                for (int j = 1; j < needle.length(); j ++) {
+//                    if (haystack.charAt(i + j) != needle.charAt(j)) {
+//                        found = false;
+//                        break;
+//                    }
+//                }
+//                if (found) {
+//                    return i;
+//                }
+//            }
+//        }
+//        return -1;
+//    }
+
     public int strStr(String haystack, String needle) {
-        for(int i = 0; i <= haystack.length() - needle.length(); i++) {
-            if(haystack.charAt(i) == needle.charAt(0)) {
-                boolean found = true;
-                for (int j = 1; j < needle.length(); j ++) {
-                    if (haystack.charAt(i + j) != needle.charAt(j)) {
-                        found = false;
-                        break;
-                    }
-                }
-                if (found) {
-                    return i;
-                }
+        int needleLength = needle.length();
+        int haystackLength = haystack.length();
+        for (int i = 0;; i++) {
+            for (int j = 0;; j++) {
+                if (j == needleLength) return i;
+                if (i + j == haystackLength) return -1;
+                if (needle.charAt(j) != haystack.charAt(i + j)) break;
             }
         }
-        return -1;
     }
 }
+
+
